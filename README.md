@@ -45,9 +45,6 @@ You can add **a new blog-post** via running
 hugo new blog/my-new-post.md
 ```
 
-### Adding your branding / colors / css
-
-Add a `custom_head.html`-file to your `layouts/partials`-directory. In there you may add a `<style>`-tag, *or* you may add a `<link>`-tag referencing your own `custom.css` (in case you prefer to have a separate `.css`-file). Check out the [`style.html`](https://github.com/janraasch/hugo-bearblog/blob/master/layouts/partials/style.html)-file to find out which CSS-styles are applied by default.
 
 ## Remixes 🎭
 
@@ -61,28 +58,8 @@ _Note: These are independent forks maintained by their respective creators._
 
 ## Contributing & Community 🤝
 
-Interested in contributing to Hugo ʕ•ᴥ•ʔ Bear Blog? Thanks for your interest!
 
-- Check out our [Contributing Guidelines](CONTRIBUTING.md) for code contributions and bug reports
-- [Share your story](https://github.com/janraasch/hugo-bearblog/issues/new/choose) if you're using the theme - we'd love to see what you've built!
-- Have questions? You can find help in our [GitHub issues](https://github.com/janraasch/hugo-bearblog/issues) or the [Hugo Discourse](https://discourse.gohugo.io/)
 
-We aim to keep this theme as simple and fast as the original [Bear Blog](https://bearblog.dev), while making it a friendly space for everyone to contribute and share their experiences.
-
-## Development
-Run the `exampleSite` locally via
-
-```bash
-hugo server --source ./exampleSite --themesDir ../..
-```
-
-In case you want to test functionalities and use hugo commands, in the root directory, you'll have to append `--source ./exampleSite --themesDir ../..` to them.
-
-For example:
-
-```bash
-hugo new blog/post.md --source ./exampleSite --themesDir ../..
-```
 
 Same thing for pages:
 
@@ -90,13 +67,3 @@ Same thing for pages:
 hugo new page.md  --source ./exampleSite --themesDir ../..
 ```
 
-## Special Thanks 🎁
-
-A special thank you goes out to [Herman](https://herman.bearblog.dev), for creating the original [ʕ•ᴥ•ʔ Bear Blog](https://bearblog.dev/).
-
-## License
-[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Jan Raasch](https://www.janraasch.com)
-
-[hugo-setup-guide]: https://gohugo.io/getting-started/installing
-[light-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot.png
-[dark-screenshot]: https://raw.githubusercontent.com/janraasch/hugo-bearblog/master/images/screenshot-dark.png
